@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MeditationView: View {
+  @State private var showPlayer = false
+  
     var body: some View {
       VStack(spacing: 0) {
         Image(.meditaion3)
@@ -33,7 +35,9 @@ struct MeditationView: View {
             Text("1 Minute Relaxing Meditation")
               .font(.title)
             
-            Button(action: {}, label: {
+            Button(action: {
+              showPlayer = true
+            }, label: {
               Label("Play", systemImage: "play.fill")
                 .font(.headline)
                 .foregroundStyle(.first)
@@ -54,6 +58,9 @@ struct MeditationView: View {
         .frame(height: UIScreen.main.bounds.height * 2 / 3)
       }
       .ignoresSafeArea()
+      .fullScreenCover(isPresented: $showPlayer) {
+        PlayerView()
+      }
     }
 }
 

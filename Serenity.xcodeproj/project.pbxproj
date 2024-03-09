@@ -12,6 +12,8 @@
 		1BDBA5772B9C02F600AF068B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBA5762B9C02F600AF068B /* Assets.xcassets */; };
 		1BDBA57A2B9C02F600AF068B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBA5792B9C02F600AF068B /* Preview Assets.xcassets */; };
 		1BDBA5812B9C07BE00AF068B /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBA5802B9C07BE00AF068B /* MeditationView.swift */; };
+		1BDBA5832B9C0BC000AF068B /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBA5822B9C0BC000AF068B /* PlayerView.swift */; };
+		1BDBA5852B9C0FB700AF068B /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBA5842B9C0FB700AF068B /* PlaybackControlButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		1BDBA5762B9C02F600AF068B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BDBA5792B9C02F600AF068B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1BDBA5802B9C07BE00AF068B /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		1BDBA5822B9C0BC000AF068B /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		1BDBA5842B9C0FB700AF068B /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				1BDBA5722B9C02F500AF068B /* SerenityApp.swift */,
 				1BDBA5742B9C02F500AF068B /* ContentView.swift */,
 				1BDBA5802B9C07BE00AF068B /* MeditationView.swift */,
+				1BDBA5822B9C0BC000AF068B /* PlayerView.swift */,
+				1BDBA5842B9C0FB700AF068B /* PlaybackControlButton.swift */,
 				1BDBA5762B9C02F600AF068B /* Assets.xcassets */,
 				1BDBA5782B9C02F600AF068B /* Preview Content */,
 			);
@@ -142,7 +148,9 @@
 			files = (
 				1BDBA5752B9C02F500AF068B /* ContentView.swift in Sources */,
 				1BDBA5812B9C07BE00AF068B /* MeditationView.swift in Sources */,
+				1BDBA5852B9C0FB700AF068B /* PlaybackControlButton.swift in Sources */,
 				1BDBA5732B9C02F500AF068B /* SerenityApp.swift in Sources */,
+				1BDBA5832B9C0BC000AF068B /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
