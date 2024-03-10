@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B24F3A92B9D31AE00D2DBD2 /* MeditationOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24F3A82B9D31AE00D2DBD2 /* MeditationOO.swift */; };
 		1BDBA5732B9C02F500AF068B /* SerenityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBA5722B9C02F500AF068B /* SerenityApp.swift */; };
 		1BDBA5752B9C02F500AF068B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBA5742B9C02F500AF068B /* ContentView.swift */; };
 		1BDBA5772B9C02F600AF068B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBA5762B9C02F600AF068B /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B24F3A82B9D31AE00D2DBD2 /* MeditationOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationOO.swift; sourceTree = "<group>"; };
 		1BDBA56F2B9C02F500AF068B /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDBA5722B9C02F500AF068B /* SerenityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityApp.swift; sourceTree = "<group>"; };
 		1BDBA5742B9C02F500AF068B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1BDBA5722B9C02F500AF068B /* SerenityApp.swift */,
+				1B24F3A82B9D31AE00D2DBD2 /* MeditationOO.swift */,
 				1BDBA5742B9C02F500AF068B /* ContentView.swift */,
 				1BDBA5802B9C07BE00AF068B /* MeditationView.swift */,
 				1BDBA5822B9C0BC000AF068B /* PlayerView.swift */,
@@ -150,6 +153,7 @@
 				1BDBA5812B9C07BE00AF068B /* MeditationView.swift in Sources */,
 				1BDBA5852B9C0FB700AF068B /* PlaybackControlButton.swift in Sources */,
 				1BDBA5732B9C02F500AF068B /* SerenityApp.swift in Sources */,
+				1B24F3A92B9D31AE00D2DBD2 /* MeditationOO.swift in Sources */,
 				1BDBA5832B9C0BC000AF068B /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

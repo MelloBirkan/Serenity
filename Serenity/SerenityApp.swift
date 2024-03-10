@@ -11,7 +11,7 @@ import SwiftUI
 struct SerenityApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          MeditationView(meditationOO: MeditationOO(meditation: MeditationDO.data))
         }
     }
 }

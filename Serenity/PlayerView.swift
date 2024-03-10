@@ -9,11 +9,12 @@ import SwiftUI
 
 struct PlayerView: View {
   @Environment(\.dismiss) var dismiss
+  var meditationOO: MeditationOO
   @State private var value = 0.0
   
     var body: some View {
       ZStack {
-        Image(.meditation2)
+        meditationOO.meditation.image
           .resizable()
           .aspectRatio(contentMode: .fill)
           .frame(width: UIScreen.main.bounds.width)
@@ -38,7 +39,7 @@ struct PlayerView: View {
             Spacer()
           }
           
-          Text("1 Minute Relaxing Meditation")
+          Text(meditationOO.meditation.title)
             .font(.title)
             .foregroundStyle(.white) // Possivel mudança de cor
             .background(
@@ -105,5 +106,6 @@ struct PlayerView: View {
 }
 
 #Preview {
-    PlayerView()
+  let meditationOO = MeditationOO(meditation: MeditationDO.data)
+  return PlayerView(meditationOO: meditationOO)
 }
