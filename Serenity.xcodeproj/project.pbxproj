@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1B24F3A92B9D31AE00D2DBD2 /* MeditationOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B24F3A82B9D31AE00D2DBD2 /* MeditationOO.swift */; };
+		1B78BD202BB8C95800ABA5A9 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B78BD1F2BB8C95800ABA5A9 /* AudioManager.swift */; };
+		1B78BD242BB8D1A600ABA5A9 /* ages-ago.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B78BD232BB8D1A600ABA5A9 /* ages-ago.mp3 */; };
 		1BDBA5732B9C02F500AF068B /* SerenityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBA5722B9C02F500AF068B /* SerenityApp.swift */; };
-		1BDBA5752B9C02F500AF068B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBA5742B9C02F500AF068B /* ContentView.swift */; };
 		1BDBA5772B9C02F600AF068B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBA5762B9C02F600AF068B /* Assets.xcassets */; };
 		1BDBA57A2B9C02F600AF068B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBA5792B9C02F600AF068B /* Preview Assets.xcassets */; };
 		1BDBA5812B9C07BE00AF068B /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBA5802B9C07BE00AF068B /* MeditationView.swift */; };
@@ -19,9 +20,11 @@
 
 /* Begin PBXFileReference section */
 		1B24F3A82B9D31AE00D2DBD2 /* MeditationOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationOO.swift; sourceTree = "<group>"; };
+		1B78BD1F2BB8C95800ABA5A9 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		1B78BD232BB8D1A600ABA5A9 /* ages-ago.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ages-ago.mp3"; sourceTree = "<group>"; };
+		1B78BD252BB8D42300ABA5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1BDBA56F2B9C02F500AF068B /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDBA5722B9C02F500AF068B /* SerenityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityApp.swift; sourceTree = "<group>"; };
-		1BDBA5742B9C02F500AF068B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BDBA5762B9C02F600AF068B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BDBA5792B9C02F600AF068B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1BDBA5802B9C07BE00AF068B /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
@@ -40,6 +43,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B78BD212BB8C95D00ABA5A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B24F3A82B9D31AE00D2DBD2 /* MeditationOO.swift */,
+				1B78BD1F2BB8C95800ABA5A9 /* AudioManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B78BD222BB8C96700ABA5A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BDBA5802B9C07BE00AF068B /* MeditationView.swift */,
+				1BDBA5822B9C0BC000AF068B /* PlayerView.swift */,
+				1BDBA5842B9C0FB700AF068B /* PlaybackControlButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1BDBA5662B9C02F500AF068B = {
 			isa = PBXGroup;
 			children = (
@@ -59,13 +81,12 @@
 		1BDBA5712B9C02F500AF068B /* Serenity */ = {
 			isa = PBXGroup;
 			children = (
+				1B78BD252BB8D42300ABA5A9 /* Info.plist */,
 				1BDBA5722B9C02F500AF068B /* SerenityApp.swift */,
-				1B24F3A82B9D31AE00D2DBD2 /* MeditationOO.swift */,
-				1BDBA5742B9C02F500AF068B /* ContentView.swift */,
-				1BDBA5802B9C07BE00AF068B /* MeditationView.swift */,
-				1BDBA5822B9C0BC000AF068B /* PlayerView.swift */,
-				1BDBA5842B9C0FB700AF068B /* PlaybackControlButton.swift */,
+				1B78BD222BB8C96700ABA5A9 /* Views */,
+				1B78BD212BB8C95D00ABA5A9 /* Models */,
 				1BDBA5762B9C02F600AF068B /* Assets.xcassets */,
+				1B78BD232BB8D1A600ABA5A9 /* ages-ago.mp3 */,
 				1BDBA5782B9C02F600AF068B /* Preview Content */,
 			);
 			path = Serenity;
@@ -137,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B78BD242BB8D1A600ABA5A9 /* ages-ago.mp3 in Resources */,
 				1BDBA57A2B9C02F600AF068B /* Preview Assets.xcassets in Resources */,
 				1BDBA5772B9C02F600AF068B /* Assets.xcassets in Resources */,
 			);
@@ -149,7 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BDBA5752B9C02F500AF068B /* ContentView.swift in Sources */,
+				1B78BD202BB8C95800ABA5A9 /* AudioManager.swift in Sources */,
 				1BDBA5812B9C07BE00AF068B /* MeditationView.swift in Sources */,
 				1BDBA5852B9C0FB700AF068B /* PlaybackControlButton.swift in Sources */,
 				1BDBA5732B9C02F500AF068B /* SerenityApp.swift in Sources */,
@@ -291,6 +313,7 @@
 				DEVELOPMENT_TEAM = PGPC7U357H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Serenity/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,6 +343,7 @@
 				DEVELOPMENT_TEAM = PGPC7U357H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Serenity/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
